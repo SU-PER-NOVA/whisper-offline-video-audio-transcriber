@@ -1,6 +1,8 @@
 # whisper-offline-video-audio-transcriber
 "An offline video &amp; audio transcription tool powered by OpenAI Whisper. Convert your tutorials, lectures, and podcasts into accurate text transcripts and use AI to generate summaries, notes, and mind maps — saving hours of time and boosting productivity."
 
+![workflow](wisper-ai.png)
+
 # 🎧 Offline Video & Audio Transcription Tool using OpenAI Whisper
 
 Convert your offline video tutorials and audio lectures into clean, accurate transcripts — securely, privately, and without uploading anything online.
