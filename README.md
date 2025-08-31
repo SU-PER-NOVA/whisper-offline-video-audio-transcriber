@@ -39,7 +39,7 @@ Instead of manually watching hours of videos, pausing in between, and taking not
 
 ## 📦 Installation & Setup
 
-### 1. Install Python  
+# 1. Install Python  
 - Download [Python 3.10+](https://www.python.org/downloads/) (recommended).  
 - Run the installer and check ✅ **Add Python to PATH**.  
 - Verify installation:
@@ -47,16 +47,16 @@ Instead of manually watching hours of videos, pausing in between, and taking not
 python --version
 ```
 
-### For Linux 🐧
+# For Linux 🐧
 ```bash
 sudo apt update && sudo apt install python3 python3-pip -y
 python3 --version
 ```
-# 2. Install FFmpeg (Required for Whisper)
+## 2. Install FFmpeg (Required for Whisper)
 
 Whisper uses FFmpeg internally to process audio and video files.
 
-## For Windows 🪟
+# For Windows 🪟
 
 1.  Download FFmpeg from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).
 2.  Extract the downloaded ZIP file to:
@@ -80,7 +80,7 @@ Whisper uses FFmpeg internally to process audio and video files.
     ffmpeg -version
     ```
 
-## For Linux 🐧
+# For Linux 🐧
 
 Run the following commands in your terminal:
 
@@ -105,7 +105,7 @@ Run the following commands in your terminal:
 
 # 4. Install Whisper
 
-## For Windows 🪟
+# For Windows 🪟
 Open **Command Prompt** or **PowerShell** and run the following command:
 ```bash
 pip install openai-whisper
@@ -120,7 +120,7 @@ pip3 install openai-whisper
 
 Whisper performs significantly better when using PyTorch as its backend.
 
-## For Windows & Linux
+# For Windows & Linux
 
 Open your command line interface (Command Prompt/PowerShell on Windows, Terminal on Linux) and run:
 
@@ -147,14 +147,14 @@ output_folder = r"C:\Users\YourUserName\Videos\caption"
 - **Ensure** the path to your `ccvideos` folder (where videos are stored) is correct.
 - **Ensure** the path to your `caption` folder (where transcripts will be saved) is correct.
 
-# 8. Run the Script
+## 8. Run the Script
 
-## For Windows 🪟
+# For Windows 🪟
 Open **Command Prompt** or **PowerShell**, navigate to your project directory, and run:
 
     python transcriber.py
 
-## For Linux 🐧
+# For Linux 🐧
 Open your **terminal**, navigate to your project directory, and run:
 
     python3 transcriber.py
