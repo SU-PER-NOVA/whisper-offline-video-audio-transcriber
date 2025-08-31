@@ -43,3 +43,11 @@ Instead of manually watching hours of videos, pausing in between, and taking not
 - Verify installation:
 ```bash
 python --version
+```
+
+### For Linux 🐧
+```bash
+sudo apt update && sudo apt install python3 python3-pip -y
+python3 --version
+```
+
