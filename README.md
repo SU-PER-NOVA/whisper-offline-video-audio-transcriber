@@ -39,7 +39,7 @@ Instead of manually watching hours of videos, pausing in between, and taking not
 
 ## 📦 Installation & Setup
 
-# 1. Install Python  
+### 1. Install Python  
 - Download [Python 3.10+](https://www.python.org/downloads/) (recommended).  
 - Run the installer and check ✅ **Add Python to PATH**.  
 - Verify installation:
@@ -47,7 +47,7 @@ Instead of manually watching hours of videos, pausing in between, and taking not
 python --version
 ```
 
-# For Linux 🐧
+### For Linux 🐧
 ```bash
 sudo apt update && sudo apt install python3 python3-pip -y
 python3 --version
@@ -56,7 +56,7 @@ python3 --version
 
 Whisper uses FFmpeg internally to process audio and video files.
 
-# For Windows 🪟
+### For Windows 🪟
 
 1.  Download FFmpeg from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).
 2.  Extract the downloaded ZIP file to:
@@ -80,7 +80,7 @@ Whisper uses FFmpeg internally to process audio and video files.
     ffmpeg -version
     ```
 
-# For Linux 🐧
+### For Linux 🐧
 
 Run the following commands in your terminal:
 
@@ -93,7 +93,7 @@ Run the following commands in your terminal:
     ffmpeg -version
     ```
     
-# 3. Create a Project Folder
+## 3. Create a Project Folder
 
 1.  Choose a location for your project, for example:
     ```
@@ -103,36 +103,36 @@ Run the following commands in your terminal:
     *   `ccvideos` - Place your video files here.
     *   `caption` - Whisper will save the generated transcript files here.
 
-# 4. Install Whisper
+## 4. Install Whisper
 
-# For Windows 🪟
+### For Windows 🪟
 Open **Command Prompt** or **PowerShell** and run the following command:
 ```bash
 pip install openai-whisper
 ```
-# For Linux 🐧
+### For Linux 🐧
 Open your terminal and run:
 
 ```bash
 pip3 install openai-whisper
 ```
-# 5. Install PyTorch (For Faster Processing)
+## 5. Install PyTorch (For Faster Processing)
 
 Whisper performs significantly better when using PyTorch as its backend.
 
-# For Windows & Linux
+### For Windows & Linux
 
 Open your command line interface (Command Prompt/PowerShell on Windows, Terminal on Linux) and run:
 
 ```bash
 pip install torch torchvision torchaudio
 ```
-# 6. Download and Save the Script
+## 6. Download and Save the Script
 
 1.  Copy the provided Python script (e.g., `transcriber.py`).
 2.  Save the file into your main project folder (e.g., `C:\Users\YourUserName\Videos`).
 
-# 7. Update the Folder Paths in the Script
+## 7. Update the Folder Paths in the Script
 
 Open the `transcriber.py` script in a text editor (like Notepad++, VS Code, or any code editor).
 
@@ -149,12 +149,12 @@ output_folder = r"C:\Users\YourUserName\Videos\caption"
 
 ## 8. Run the Script
 
-# For Windows 🪟
+### For Windows 🪟
 Open **Command Prompt** or **PowerShell**, navigate to your project directory, and run:
 
     python transcriber.py
 
-# For Linux 🐧
+### For Linux 🐧
 Open your **terminal**, navigate to your project directory, and run:
 
     python3 transcriber.py
